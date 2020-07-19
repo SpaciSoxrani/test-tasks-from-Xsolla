@@ -6,7 +6,7 @@ function getSum(sum) {
     let key = '';
     let value = '';
     if (len == 0) {
-        console.log('Error');
+        return false;
     }//fix this
 
     for (let i = 0; i < len; i++) {
@@ -29,9 +29,8 @@ function getSum(sum) {
         value = '';
     }
 
-    console.log(user);
-    console.time(9000);
+    return user;
 
 }
 
-getSum(["$11", "$1.5", "36?", "$4", "6?"]);
+console.log(getSum(["$11", "$1.5", "36₽", "$4", "6₽"]));
