@@ -30,7 +30,6 @@ function getSum(sum) {
     }
 
     console.log(user);
-    console.time(9000);
 
 }
 
